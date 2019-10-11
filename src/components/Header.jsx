@@ -28,7 +28,7 @@ const Header = props => {
                 </div>
                 <ul>
                     {hasUser ?
-                        <li><a href="/">Cuenta</a></li>
+                        <li><a href="/">{user.name}</a></li>
                         : null
                     }
                     {hasUser ?
